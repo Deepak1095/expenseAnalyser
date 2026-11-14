@@ -1,0 +1,17 @@
+README.md answering these questions in 2–3 sentences each:
+
+1. What did you predict for Warmup.js, and what did it print? Explain the first line and the error from Part B.
+
+sol => log going to print undefined because of global execution context, ttl 
+
+2. Why did Loop finished print before Async read finished? Who did the reading while your loop was running?
+
+sol=> because js priortize sync task , about who did the reading may be libuv
+
+3. How does tracker remember spent after createBudgetTracker has returned?
+
+sol => clousers (spent variable reference stored in tracker function)
+
+4. What does the ^ in front of the lodash version in package.json mean, and why is package-lock.json created?
+
+sol=> ^  means minor changes in the package are allowed to install automatically and package-lock.json store all the certificates and details of the package like where we download it from, version, its dependencies and sub dependencies their version etc
